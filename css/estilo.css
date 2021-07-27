@@ -1,0 +1,128 @@
+@font-face{
+	fonte-family: Bebas;
+	src: url(css/BebasNeuw-Regular.ttf);
+}
+
+html, body, #page-home{
+	overflow-x: hidden;
+	height: 100%;
+}
+
+
+body{
+	background: #404EED;
+}
+
+
+/*Botão Customizado
+************************/
+.btn-custom{
+	border-radius: 20px;
+	background: white;
+	color: black;
+	font-size: 14px;
+	margin-right: -10;
+}
+
+.btn-custom:hover{
+	box-shadow: 1px 1px 10px #333333;
+}
+
+
+.negrito{
+	font-weight: bolder;
+}
+
+.text-custom h1 p{
+	
+	height: 100px;
+	
+}
+
+#text-home h1{
+	font-family: Bebas;
+	font-size: 75px;
+	font-weight: bolder;
+	color: white;
+}
+
+#text-home p{
+	font-size: 20px;
+}
+
+
+.font-custom{
+	font-family: 'Anton', sans-serif;
+	color: white;
+	letter-spacing: 2px;
+	font-weight: bolder;
+	font-size: 60px;
+	margin-top: -50px;
+	margin-bottom: 25px;
+}
+
+.btn-download-custom{
+	border-radius: 28px;
+	font-size: 20px;
+	background: white;
+	color: #23272a;
+	width: 280px;
+	height: 50px;
+	margin-top: 5px;
+}
+
+.btn-download-custom:hover{
+	box-shadow: 1px 1px 10px #333333;
+}
+
+.btn-discord-custom{
+	border-radius: 28px;
+	font-size: 20px;
+	background: #23272a;
+	color: #fff;
+	width: 340px;
+	height: 52px;
+	margin-left: 20px;
+	margin-top: 5px;
+}
+
+.image-one{
+	margin-left: -730px;
+	margin-top: -70px;
+
+	
+}
+
+.image-two{
+	margin-top: -330px;
+	margin-left: -490px;
+}
+
+
+.image-three{
+	margin-left: 910px;
+	margin-top: -330px;
+	
+}
+
+
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { ... }
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
