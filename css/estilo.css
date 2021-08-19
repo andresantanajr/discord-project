@@ -6,11 +6,7 @@
 html, body, #page-home{
 	overflow-x: hidden;
 	height: 100%;
-}
-
-
-body{
-	background: #404EED;
+	box-sizing: border-box;
 }
 
 
@@ -22,6 +18,10 @@ body{
 	color: black;
 	font-size: 14px;
 	margin-right: -10;
+}
+
+.config-top{
+	background: #404EED;
 }
 
 .btn-custom:hover{
@@ -39,15 +39,58 @@ body{
 	
 }
 
+#config-principal-page{
+	height: 100%;
+	width: 100%;
+	background: #404EED;
+
+}
+
+.content-one{
+	margin-left: -29.5em;
+	margin-top: 14.5em;
+}
+
+
+.content-two{
+	margin-left: 26.5em;
+	margin-top: 14.5em;
+}
+
+.content-three h2{
+	padding-left: 10em;
+	margin-left: 15em;
+}
+
+.content-three p{
+	margin-left: 40em;
+}
+
+
+.config-content img{
+	margin-top: 5em;
+}
+
+.config-content{
+	padding: 60px 0;
+}
+
+
+
 #text-home h1{
 	font-family: Bebas;
-	font-size: 75px;
+	font-size: 30em;
 	font-weight: bolder;
+	z-index: 200;
 	color: white;
 }
 
 #text-home p{
 	font-size: 20px;
+}
+
+.caixa{
+	padding-top: 8em;
 }
 
 
@@ -86,25 +129,19 @@ body{
 	margin-top: 5px;
 }
 
-.image-one{
-	margin-left: -730px;
-	margin-top: -70px;
+.bg-grey{
+	background: #ededed;
+}
 
+.edt-block-3{
+	margin-top: 15%;
+}
+
+.edt-block-3-1{
+	margin-top: 15%;
+	
 	
 }
-
-.image-two{
-	margin-top: -330px;
-	margin-left: -490px;
-}
-
-
-.image-three{
-	margin-left: 910px;
-	margin-top: -330px;
-	
-}
-
 
 
 
